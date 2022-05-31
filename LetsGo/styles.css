@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: rgb(78, 76, 76);
+  line-height: 1.5;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+}
+.intro {
+  width: 600px;
+  margin: 30px 0px;
+}
+.upper {
+  background-color: #ffe066ba;
+  /*background-color: #ffe066ba;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+}
+header {
+  margin-top: 180px;
+  margin-left: 150px;
+
+  width: 900px;
+}
+.imgs {
+  margin-top: 25px;
+  margin-left: 100px;
+  position: relative;
+}
+.pika {
+  position: absolute;
+  top: 33%;
+  left: -20%;
+  height: 350px;
+}
+.eevee {
+  height: 350px;
+}
+.button {
+  border-radius: 15px;
+  background-color: #cd853f;
+  padding: 13px 19px;
+
+  margin-left: 200px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.button:active {
+  background-color: rgba(205, 134, 63, 0.694);
+}
+.lower {
+  height: 500px;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+.interactiveMap {
+  height: 200px;
+  width: 200px;
+
+  align-self: center;
+  justify-self: center;
+  margin-right: 150px;
+  padding: 10px 10px;
+  border: 5px solid #ffe066ba;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+.pokedex {
+  height: 200px;
+  width: 200px;
+
+  align-self: center;
+  justify-self: center;
+  margin-right: 1150px;
+  padding: 10px 1px;
+  border: 5px solid #ffe066ba;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+.Find {
+  height: 200px;
+  width: 200px;
+
+  align-self: center;
+  justify-self: center;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  border: 5px solid #ffe066ba;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+.LocalProgress {
+  height: 200px;
+  width: 200px;
+
+  align-self: center;
+  justify-self: center;
+  margin-right: 1150px;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+  border: 5px solid #ffe066ba;
+  border-radius: 10px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+.gg-arrow-top-left-o {
+  color: #cd853f;
+}
+
+.gg-pokemon {
+  color: #cd853f;
+}
+
+.gg-search {
+  color: #cd853f;
+}
+.gg-database {
+  color: #cd853f;
+}
+
+.pg {
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
